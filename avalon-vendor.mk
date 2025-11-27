@@ -971,6 +971,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/alipay.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b08 \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b03 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b04 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b05 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b06 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
+    vendor/oneplus/avalon/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b00 \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b01 \
     vendor/oneplus/avalon/proprietary/odm/vendor/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b02 \
@@ -1543,6 +1553,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.qdutils_disp@1.0 \
+    libQnnHtpV73Skel.signed.aiframe \
+    libQnnHtpV73Skel.unsigned.aiframe \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnHtpV73Stub.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     com.qti.sensor.imx355 \
     com.qti.sensor.imx882_avalon \
     com.qti.sensor.s5k3p9 \
@@ -1597,6 +1616,14 @@ PRODUCT_PACKAGES += \
     libPlatformValidatorShared \
     libPolarrRender \
     libPreviewDecisionOld \
+    libQnnCpu \
+    libQnnGpu \
+    libQnnHtp \
+    libQnnHtpPrepare \
+    libQnnHtpV73CalculatorStub \
+    libQnnHtpV73Stub \
+    libQnnSaver \
+    libQnnSystem \
     libRedeyeReduce \
     libSNPE \
     libSnpeCpu \
@@ -1619,6 +1646,10 @@ PRODUCT_PACKAGES += \
     libaecCustom \
     libaecCustomParamParser \
     libafCustomParamParser \
+    libaiboost \
+    libaiboost_llm \
+    libaiboost_qnn_external_delegate_te \
+    libaiboost_te \
     libaisal \
     libaisd \
     libaiseg \
@@ -1732,6 +1763,24 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    capi_v3_oprec \
+    libCalculator_skel \
+    libQnnHtpV73 \
+    libQnnHtpV73Skel \
+    libQnnSaver \
+    libSnpeHtpV73Skel \
+    libSuperRawPost_skel \
+    libaisr_skel \
+    libarc_gk_pt_hvx_skel \
+    libarc_htp_driver_skel \
+    libcalculator_skel \
+    libhvxFaceBeautyPre_skel \
+    libktveffect \
+    libtfadsp_sb4_0_rx \
+    libtfadsp_sb4_0_tx \
+    libvdblurless_5.0.2_skel \
+    libvdsuperphoto_skel \
+    nlc_bgth_v1_5 \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
