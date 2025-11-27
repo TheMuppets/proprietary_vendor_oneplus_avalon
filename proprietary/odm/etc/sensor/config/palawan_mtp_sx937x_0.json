@@ -463,23 +463,23 @@
       "sup_pedo_detect":{ "type": "int", "ver": "0",
         "data": "1"
       },
-      "dc_off_0_L":{ "type": "int", "ver": "0",
-        "data": "0"
+      "dc_off_0_L":{ "type": "int", "ver": "1",
+        "data": "3657"
       },
-      "dc_off_0_H":{ "type": "int", "ver": "0",
-        "data": "30000"
+      "dc_off_0_H":{ "type": "int", "ver": "1",
+        "data": "5486"
       },
-      "dc_off_1_L":{ "type": "int", "ver": "0",
-        "data": "0"
+      "dc_off_1_L":{ "type": "int", "ver": "1",
+        "data": "898"
       },
-      "dc_off_1_H":{ "type": "int", "ver": "0",
-        "data": "30000"
+      "dc_off_1_H":{ "type": "int", "ver": "1",
+        "data": "1348"
       },
-      "dc_off_2_L":{ "type": "int", "ver": "0",
-        "data": "0"
+      "dc_off_2_L":{ "type": "int", "ver": "1",
+        "data": "2732"
       },
-      "dc_off_2_H":{ "type": "int", "ver": "0",
-        "data": "30000"
+      "dc_off_2_H":{ "type": "int", "ver": "1",
+        "data": "4098"
       },
       "dc_off_3_L":{ "type": "int", "ver": "0",
         "data": "0"

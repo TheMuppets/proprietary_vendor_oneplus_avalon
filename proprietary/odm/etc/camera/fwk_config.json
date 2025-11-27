@@ -294,6 +294,14 @@
             "com.tencent.mm.plugin.appbrand.ui.AppBrandUI04",
             "com.tencent.mm.plugin.flash.FaceFlashUI",
             "com.tencent.mm.plugin.flash.action.FaceFlashActionUI"
+        ],
+        "app_enable_fb_activity": [
+            "com.tencent.mm.ui.LauncherUI",
+            "com.tencent.mm.plugin.voip.ui.VideoActivity",
+            "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
+            "com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI",
+            "com.tencent.mm.ui.chatting.ChattingUI",
+            ""
         ]
     },
     "com.tencent.qqmusic": {
@@ -485,8 +493,10 @@
         ],
         "app_disable_fb_activity": [
             "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.camera.ui.CameraActivity",
             "com.whatsapp.qrcode.contactqr.ContactQrActivity",
-            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity"
+            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
+            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"
         ]
     },
     "com.discord": {
@@ -553,6 +563,13 @@
     "com.shuru.nearme": {
         "maxPreviewWidthForAPI1":1920,
         "maxPreviewHeightForAPI1":1080
+    },
+    "com.pinterest": {
+        "previewSizeForAPI1Width": 2160,
+        "previewSizeForAPI1Height": 1080,
+        "resolutionFilterForNotAddSizeAPI1": [
+            "1440x1440"
+        ]
     },
     "com.eg.android.AlipayGphone": {
         "feature_resolution_enable": true,

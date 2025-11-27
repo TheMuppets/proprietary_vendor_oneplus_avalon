@@ -227,6 +227,31 @@
       {
         "condition": {
           "and": {
+            "eq": [
+              "cameraId",
+              1
+            ],
+            "or": {
+              "eq": [
+                "featureType",
+                "APS_FEATURE_TURBO_RAW_NZSL_IZOOM_QBC"
+              ],
+              "eq1": [
+                "featureType",
+                "APS_FEATURE_TURBO_RAW_IZOOM_2DOL_QBC"
+              ],
+              "eq2": [
+                "featureType",
+                "APS_FEATURE_TURBO_RAW_IZOOM_QBC"
+              ]
+            }
+          }
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
+          "and": {
             "or": {
               "eq": [
                 "currentPipeline",
