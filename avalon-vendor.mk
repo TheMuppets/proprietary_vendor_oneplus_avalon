@@ -1102,6 +1102,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
     vendor/oneplus/avalon/proprietary/vendor/firmware/gen71100_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_zap.mbn \
     vendor/oneplus/avalon/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
+    vendor/oneplus/avalon/proprietary/vendor/firmware/pn560.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pn560.bin \
     vendor/oneplus/avalon/proprietary/vendor/firmware/qps615_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qps615_fw.bin \
     vendor/oneplus/avalon/proprietary/vendor/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tof8801_firmware.bin \
     vendor/oneplus/avalon/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
