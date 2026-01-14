@@ -42,17 +42,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraOemConfiguration.config \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/M_FaceAttribute_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/M_FaceAttribute_RGB.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Align_occlusion.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Align_occlusion.model \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Attribute_Face_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Attribute_Face_RGB.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_AnimalBodyFaceEye_Gray.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Detect_BodyHead_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_BodyHead_Gray.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_BGR.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_Gray.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Refine_RectQuality_HumanBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_HumanBodyFaceEye_Gray.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Track_FaceRect20cls.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_FaceRect20cls.model \
-    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Track_HumanBody_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_HumanBody_Gray.model \
+    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Detect_FaceAnimal_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_FaceAnimal_Gray.model \
+    vendor/oneplus/avalon/proprietary/odm/etc/camera/Vega_Track_Animals_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_Animals_Gray.model \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/aigc/aigc_models/blurDet_sm7675.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/blurDet_sm7675.bin \
@@ -451,6 +443,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
+    vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
+    vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
     vendor/oneplus/avalon/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
