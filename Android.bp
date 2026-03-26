@@ -5756,6 +5756,7 @@ cc_prebuilt_library_shared {
                 "libosensenativeproxy_client",
                 "com.qti.chi.override",
                 "libchilog",
+                "libhwconfigurationutil_vendor",
                 "libz",
                 "libc",
                 "libm",
@@ -8346,6 +8347,38 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdtlm",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libdtlm.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libxml2",
+                "libbinder_ndk",
+                "android.frameworks.stats-V1-ndk",
+                "libolc_vnd",
+                "vendor.oplus.hardware.displaypanelfeature-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
