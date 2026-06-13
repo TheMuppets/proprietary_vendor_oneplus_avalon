@@ -909,6 +909,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/odm/etc/wifi/qca6750/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/bdwlan.b0i \
     vendor/oneplus/avalon/proprietary/odm/etc/wifi/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/bdwlan.elf \
     vendor/oneplus/avalon/proprietary/odm/etc/wifi/qca6750/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/regdb.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_haptic_170_soft.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170_soft.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_haptic_235.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_haptic_235_19161.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235_19161.bin \
+    vendor/oneplus/avalon/proprietary/odm/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp.bin \
     vendor/oneplus/avalon/proprietary/odm/firmware/fastchg/24211/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/24211/charging_hyper_mode_config.txt \
     vendor/oneplus/avalon/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
     vendor/oneplus/avalon/proprietary/odm/firmware/fastchg/charge_time_config.csv:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charge_time_config.csv \
